@@ -11,26 +11,50 @@ html {
 	font-size: 30px;
 }
 
-#sidebar {
+.sidebar {
+	float: left;	
+	align-items: center;
 	width: 15%;
-	/* z-index: 1; */
-	/* top: 0; */
-	/* left: 0; */
 	background-color: #FFFF00;
 	border-radius: 20px;
-	/* overflow-x: hidden; */
+	overflow-x: hidden;
 	padding: 20px;
-	margin: 10px 10px 10px 0;
+	margin-top: 10px;
 }
 
 .sticky {
 	position: fixed;
 	top: 10px;
-	width: 15%;
+}
+
+.contact-item {
+	display: grid;
+	grid-template-columns: 40px auto;
+	align-items: start;
+	padding: 4px 0 4px 0;
+}
+
+.contact-info a:link {
+	text-decoration: none;
+}
+
+.contact-info a:hover {
+	text-decoration: underline;
+}
+
+.education h4 {
+	margin: 8px 0 0 0;
+}
+
+.education #details {
+	padding: 2px 0 0 4px;
+	color: #292929;	
+	font-size: 14px;
 }
 
 .main {
-	float:right;
-	font-size: 30px;
+	float: right;
 	width: 80%;
+	font-size: 30px;
+	padding: 10px;
 }
