@@ -1,3 +1,36 @@
 html {
 	font-family: "Arial";
 }
+
+.header {
+	padding: 60px;
+	text-align: center;
+	background: #1ABC9C;
+	border-radius:20px;
+	color: white;
+	font-size: 30px;
+}
+
+#sidebar {
+	width: 15%;
+	/* z-index: 1; */
+	/* top: 0; */
+	/* left: 0; */
+	background-color: #FFFF00;
+	border-radius: 20px;
+	/* overflow-x: hidden; */
+	padding: 20px;
+	margin: 10px 10px 10px 0;
+}
+
+.sticky {
+	position: fixed;
+	top: 10px;
+	width: 15%;
+}
+
+.main {
+	float:right;
+	font-size: 30px;
+	width: 80%;
+}
